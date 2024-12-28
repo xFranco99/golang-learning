@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main(){
-	fmt.Printf("Hello world!")
+	ll := newMyLinkedListFomValues(1, 2, 3, 4, 5)
+
+	fmt.Printf(ll.myLikedListToString())
 }
